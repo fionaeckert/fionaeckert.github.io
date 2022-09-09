@@ -114,8 +114,8 @@ function comp() {
         yAxis = Math.round(Math.random() * (2) ) 
     }
 
-    setTimeout async(setCord(xAxis,yAxis),3000)
-    //setCord(xAxis,yAxis)
+    // setTimeout async(setCord(xAxis,yAxis),3000)
+    setCord(xAxis,yAxis)
     if (gameOver == false) {
         count ++
         player = 'Player 1'
